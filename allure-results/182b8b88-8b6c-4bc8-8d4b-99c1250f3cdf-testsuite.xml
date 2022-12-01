@@ -1,0 +1,81 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669701343422' stop='1669701710427'>
+    <name>Set2 Test flows: TC0202 Verify agents page</name>
+    <title>Set2 Test flows: TC0202 Verify agents page</title>
+    <test-cases>
+        <test-case start='1669701343422' status='passed' stop='1669701343423'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669701343423' status='broken' stop='1669701710426'>
+            <name>Then Verify whether the property is listed on the agent's page using the assertion method</name>
+            <title>Then Verify whether the property is listed on the agent's page using the assertion method</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669701343426' status='passed' stop='1669701348331'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6c1c0204-5877-4559-b1ff-bca3c0645a54-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='d784e9cf-aa05-4b89-a3ae-cbe6077f8fca-attachment.json' type='application/json' size='2029'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669701348335' status='broken' stop='1669701710426'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='b38f7fad-6473-4baa-9eea-a7cf2b8b185b-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps>
+                        <step start='1669701710423' status='broken' stop='1669701710426'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: function timed out, ensure the promise resolves within 100000 milliseconds</message>
+                <stack-trace>Error: function timed out, ensure the promise resolves within 100000 milliseconds
+                    at Timeout.&lt;anonymous> (/Users/narendra/Desktop/Zoopla project/node_modules/@cucumber/cucumber/lib/time.js:64:20)
+                    at listOnTimeout (node:internal/timers:557:17)
+                    at processTimers (node:internal/timers:500:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669701710426' status='passed' stop='1669701710427'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

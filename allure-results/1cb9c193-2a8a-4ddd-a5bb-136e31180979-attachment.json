@@ -1,0 +1,145 @@
+{
+  "id": {
+    "sessionId": "e18ad6d3c3a612c4965ea6dd91dc8d36",
+    "elementId": "c0fa672f-bc8f-48d4-93b7-9156412759b7",
+    "element-6066-11e4-a52e-4f735466cecf": "c0fa672f-bc8f-48d4-93b7-9156412759b7",
+    "selector": "//*[@id='gb']/div/div[3]/iframe",
+    "parent": {
+      "sessionId": "e18ad6d3c3a612c4965ea6dd91dc8d36",
+      "capabilities": {
+        "acceptInsecureCerts": true,
+        "browserName": "chrome",
+        "browserVersion": "107.0.5304.121",
+        "chrome": {
+          "chromedriverVersion": "107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942})",
+          "userDataDir": "/var/folders/2t/1dvhjf4j71s310yh4t13dz_c0000gn/T/.com.google.Chrome.onwK2m"
+        },
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:51592"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "mac os x",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:extension:credBlob": true,
+        "webauthn:extension:largeBlob": true,
+        "webauthn:virtualAuthenticators": true
+      },
+      "config": {
+        "specs": [
+          "./features/*.feature"
+        ],
+        "suites": {},
+        "exclude": [],
+        "logLevel": "info",
+        "logLevels": {},
+        "excludeDriverLogs": [],
+        "bail": 0,
+        "waitforInterval": 500,
+        "waitforTimeout": 20000,
+        "framework": "cucumber",
+        "reporters": [
+          "spec",
+          [
+            "allure",
+            {
+              "outputDir": "allure-results"
+            }
+          ]
+        ],
+        "services": [
+          "chromedriver"
+        ],
+        "maxInstances": 10,
+        "maxInstancesPerCapability": 100,
+        "filesToWatch": [],
+        "connectionRetryTimeout": 100000,
+        "connectionRetryCount": 2,
+        "execArgv": [],
+        "runnerEnv": {},
+        "runner": "local",
+        "specFileRetries": 0,
+        "specFileRetriesDelay": 0,
+        "specFileRetriesDeferred": false,
+        "reporterSyncInterval": 100,
+        "reporterSyncTimeout": 5000,
+        "cucumberFeaturesWithLineNumbers": [],
+        "autoCompileOpts": {
+          "autoCompile": true,
+          "tsNodeOpts": {
+            "transpileOnly": true
+          },
+          "babelOpts": {}
+        },
+        "mochaOpts": {
+          "timeout": 10000
+        },
+        "jasmineOpts": {
+          "defaultTimeoutInterval": 10000
+        },
+        "cucumberOpts": {
+          "timeout": 100000,
+          "require": [
+            "./features/step-definitions/*.js"
+          ],
+          "backtrace": false,
+          "requireModule": [
+            "@babel/register"
+          ],
+          "dryRun": false,
+          "failFast": false,
+          "snippets": true,
+          "source": true,
+          "strict": false,
+          "tagExpression": "",
+          "ignoreUndefinedDefinitions": true
+        },
+        "onPrepare": [],
+        "onWorkerStart": [],
+        "onWorkerEnd": [],
+        "before": [
+          null
+        ],
+        "beforeSession": [],
+        "beforeSuite": [],
+        "beforeHook": [],
+        "beforeTest": [],
+        "beforeCommand": [],
+        "afterCommand": [],
+        "afterTest": [],
+        "afterHook": [],
+        "afterSuite": [],
+        "afterSession": [],
+        "after": [],
+        "onComplete": [
+          null
+        ],
+        "onReload": [],
+        "beforeFeature": [],
+        "beforeScenario": [],
+        "beforeStep": [],
+        "afterStep": [
+          null
+        ],
+        "afterScenario": [],
+        "afterFeature": [],
+        "baseUrl": "https://www.google.co.in/",
+        "_": [
+          "run"
+        ],
+        "$0": "node_modules/.bin/wdio",
+        "config-path": "wdio.conf.js",
+        "ignoredWorkerServices": []
+      }
+    },
+    "isReactElement": false
+  }
+}

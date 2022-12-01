@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id='listing-summary-details-heading']/div[2]/address"
+}
