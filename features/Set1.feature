@@ -5,4 +5,4 @@ Feature: Set1 Test flows
         When Search for the term zoopla
 
     Scenario: TC102 open URL and check time taken to load
-         Given Open url in another tab check whether the page URL is the same
+         Given Open url in another tab check whether the page URL is the same as equal
